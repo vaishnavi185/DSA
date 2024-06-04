@@ -3,7 +3,7 @@ class FindLarge{
     public static void main(String[] args) {
         FindLarge find = new FindLarge();
       int largest = find.largeNum();
-      System.out.println("largest number is :" +largest);
+      System.out.println("largests number is :" +largest);
        
         
     }
