@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class RemovDuplicate {
@@ -23,6 +24,7 @@ public static void main(String args[]){
 
 
 public int[] RemoveDup(int[] arr) {
+    Arrays.sort(arr);
   int[] temp = new int[arr.length]; // Create a temporary array to store unique elements
   int j = 0; // Index for temp array
 
