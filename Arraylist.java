@@ -16,7 +16,7 @@ public class Arraylist {
       System.out.println(ele);
 
       list.remove(0);
-      System.out.print(list);
+      System.out.print(list);    //remove element through index
       list .set(0,78);
       System.out.print(list);    // set will set element at 0 index
        
