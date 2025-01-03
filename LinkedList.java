@@ -112,13 +112,51 @@ public class LinkedList {
         }
     }
 
+    public void deleteNode() {
+        if (isEmpty()) {
+            System.out.println("List is empty.");
+            return;
+        }
+        if (size == 1) {
+            start = null;
+        } else {
+            Node temp = start;
+            while (temp.getNext().getNext() != null) {
+                temp = temp.getNext();
+            }
+            temp.setNext(null);
+        }
+        size--;
+    }
+    
+    public void deletePos(int pos) {
+        if (pos < 1 || pos > size) {
+            System.out.println("Invalid deletion position.");
+            return;
+        }
+        if (pos == 1) {
+            start = start.getNext();
+        } else {
+            Node temp = start;
+            for (int i = 1; i < pos - 1; i++) {
+                temp = temp.getNext();
+            }
+            temp.setNext(temp.getNext().getNext());
+        }
+        size--;
+    }
+    
+
+
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.insertAtFirst(10);
         list.insertAtEnd(20);
+        list.insertAtPos(3, 1);
         list.insertAtPos(15, 2);
         // Expected output: 10 15 20
+        list.deletePos(2);
     
         list.viewList();
     }
