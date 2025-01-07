@@ -32,7 +32,7 @@ class LinkedList{
     private Node start;
 
     public void Findmid(){
-        if (start == null) {  // Check if the list is empty
+        if (start == null) {  
             System.out.println("The list is empty.");
             return;
         }
@@ -48,13 +48,13 @@ class LinkedList{
     public void insert(int val) {
         Node newNode = new Node(val, null);
         if (start == null) {
-            start = newNode;  // First node becomes the start
+            start = newNode;  
         } else {
             Node temp = start;
             while (temp.getNext() != null) {
                 temp = temp.getNext();
             }
-            temp.setNext(newNode);  // Add new node to the end of the list
+            temp.setNext(newNode);  
         }
     }
 
