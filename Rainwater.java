@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Rainwater {
     public static void main(String[] args) {
-        int[] arr = {3, 0, 1, 3};
+        int[] arr = {3, 0, 1, 1};
         int n = arr.length;
 
         if (n == 0) {
