@@ -46,6 +46,9 @@ System.out.print("stack overflow");
     stack.push(7);
     stack.push(9);
     stack.pop();
+    stack.push(7);
+    stack.push(9);
+    stack.pop();
     stack.display();
 
   }
