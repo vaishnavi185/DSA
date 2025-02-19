@@ -13,10 +13,10 @@ class Bubble{
         }
      }
     public static void main(String[] args){
-           int[] nums={1,99,0,8,7}; 
+           int[] nums={7,10,3,8,9,6}; 
            sort(nums);
            for(int num:nums){
-            System.out.print(num+"");
+            System.out.print(num+" ");
            } 
           }
 }
