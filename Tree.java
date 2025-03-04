@@ -1,6 +1,6 @@
 //create node class defint data left right
 //recursive fun
-//traveraal-->inorder,preorder,postorder
+//traveraal->inorder,preorder,postorder
 
 
 
