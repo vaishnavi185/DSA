@@ -8,3 +8,5 @@ competitive programming.'
 <li>list</li>
 <li>linkedlist</li>
 <li>Arraylist</li>
+<li>Stack</li>
+<li>Queue</li>
