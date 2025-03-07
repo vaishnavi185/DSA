@@ -10,3 +10,9 @@ competitive programming.'
 <li>Arraylist</li>
 <li>Stack</li>
 <li>Queue</li>
+
+<h1> Non-Linear Data Structure </h1>
+
+<ul>
+<li>Graph</li>
+<li>Tree</li>
