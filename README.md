@@ -4,3 +4,7 @@ competitive programming.'
 
 <h1> Linear Data Structure </h1>
 
+<ul>
+<li>list</li>
+<li>linkedlist</li>
+<li>Arraylist</li>
