@@ -10,7 +10,7 @@ public class Two_Sum {
         for(int i = 0; i < nums.length; i++){
             int n = target - nums[i];
             if(map.containsKey(n)){
-                res[0] = map.get(n); // Get the index of the complement
+                res[0] = map.get(n); 
                 res[1] = i; // Current index
                 break; // Stop after finding the first valid pair
             }
