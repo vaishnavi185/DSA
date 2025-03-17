@@ -1,6 +1,6 @@
 public class Longest {
     public static void main(String[] args) {
-        String str ="pwwkw";
+        String str ="pwwekw";
 
         int n = str.length();
         int count =0;
