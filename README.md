@@ -17,3 +17,9 @@ competitive programming.'
 <li>Graph</li>
 <li>Tree</li>
 </ul>
+
+<h1>DSA USING JAVA</h1>
+
+<p>java is object oriented language . every function is done through class and object method </p>
+
+
