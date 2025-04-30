@@ -16,7 +16,7 @@ public class Window {
 return max_sum;
     }
     public static void main(String[] args){
-       int[] arr={1,9,0,8,6,7};
+       int[] arr={1,9,0,96,7};
        int k=2;
        Window w= new Window();
        int r =w.wimdow(arr,k);
