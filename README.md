@@ -20,9 +20,8 @@ in software development interviews or competitive programming.
   <li>Tree</li>
 </ul>
 
-<h1>DSA Using Java</h1>
-<p>
-Java is an object-oriented programming language. 
-Every operation is performed through classes and objects. 
-Functions (methods) are defined inside classes and are usually called using objects.
-</p>
+<h1>DSA USING JAVA</h1>
+
+<p>java is object oriented language . every function is done through class and object method </p>
+
+
