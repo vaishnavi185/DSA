@@ -24,7 +24,7 @@ public class Dutch{
         }return arr;
     }
     public static void main(String[] args) {
-        int[] arr ={0,0,1,2,0,1,2,1};
+        int[] arr ={0,0,1,2,0,2,1};
         Dutch d=new Dutch();
         d.flag(arr);
         for(int i=0;i<arr.length;i++){
